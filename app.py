@@ -7,8 +7,8 @@ import base64
 nlp = spacy.load("ja_ginza")
 
 # Streamlitの設定
-st.title("日本語テキストのエンティティ抽出")
-st.write("テキストを入力して、エンティティを抽出します。")
+st.title("オリジナルGiNZAでNER抽出")
+st.write("テキストを入力して、NERエンティティを抽出します。")
 
 # テキスト入力欄
 input_text = st.text_area("テキストを入力してください：")

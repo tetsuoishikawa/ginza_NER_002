@@ -1,7 +1,5 @@
 import spacy
-from spacy.pipeline import EntityRuler
 from spacy import displacy
-import json
 import streamlit as st
 import base64
 
@@ -39,6 +37,3 @@ if st.button("解析開始"):
 
     st.write("エンティティの情報が解析されました。以下のリンクからダウンロードできます。")
 
-# Streamlitの実行
-if __name__ == "__main__":
-    st.run()

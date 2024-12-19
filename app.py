@@ -1,5 +1,7 @@
 import spacy
+from spacy.pipeline import EntityRuler
 from spacy import displacy
+import json
 import streamlit as st
 import base64
 
